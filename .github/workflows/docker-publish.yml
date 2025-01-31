@@ -21,9 +21,15 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Check permissions
+        run: |
+          echo "GitHub Token Permissions:"
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/user
+
+
       - name: Build and tag Docker image
         run: |
-          IMAGE_NAME=ghcr.io/${{ github.repository }}:latest
+          IMAGE_NAME=ghcr.io/caheuer/caheuer-portfolio:latest
           IMAGE_NAME=${IMAGE_NAME,,}  # Convert to lowercase (required by GHCR)
           docker build -t $IMAGE_NAME .
           docker push $IMAGE_NAME
