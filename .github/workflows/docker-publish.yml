@@ -26,7 +26,7 @@ jobs:
 
       - name: Build and tag Docker image
         run: |
-          IMAGE_NAME=ghcr.io/${{ github.actor }}/caheuer-portfolio:latest
+          IMAGE_NAME=ghcr.io/${{ github.repository }}:latest
           IMAGE_NAME=${IMAGE_NAME,,}  # Convert to lowercase (required by GHCR)
           docker build -t $IMAGE_NAME .
           docker push $IMAGE_NAME
