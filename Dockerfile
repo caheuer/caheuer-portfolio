@@ -17,11 +17,11 @@ COPY . .
 RUN npm run build
 
 # Expose the port the app runs on
-EXPOSE 5173
+EXPOSE 80
 
 # Set environment variables
 ENV NODE_ENV=production
-ENV PORT=5173
+ENV PORT=80
 
 # Start the server
-CMD ["npm", "run", "preview"]
+CMD ["node", "server.js"]
