@@ -1,0 +1,37 @@
+[
+    {
+        "id": "react",
+        "name": "React",
+        "link": "https://reactjs.org/"
+    },
+    {
+        "id": "firebase",
+        "name": "Firebase",
+        "link": "https://firebase.google.com/"
+    },
+    {
+        "id": "flutter",
+        "name": "Flutter",
+        "link": "https://flutter.dev/"
+    },
+    {
+        "id": "typescript",
+        "name": "TypeScript",
+        "link": "https://www.typescriptlang.org/"
+    },
+    {
+        "id": "javascript",
+        "name": "JavaScript",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+        "id": "docker",
+        "name": "Docker",
+        "link": "https://www.docker.com/"
+    },
+    {
+        "id": "python",
+        "name": "Python",
+        "link": "https://www.python.org/"
+    }
+]

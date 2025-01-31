@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+/* Link buttons */
+
+.link-btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.link-btn {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link-btn::after {
+    content: '>';
+    margin-left: 5px;
+}

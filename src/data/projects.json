@@ -1,0 +1,39 @@
+[
+    {
+        "id": "portfolio",
+        "name": "caheuer Portfolio",
+        "publishedYear": 2025,
+        "publishedMonth": 0,
+        "shortDescription": "The portfolio you are currently looking at. It is a React app with server-side rendering based on the Vite TypeScript React SSR template. It is hosted on my own server using Docker. The code is automatically updated from GitHub using a GitHub action that deploys the image to GitHub Container Registry and Watchtower on the server.",
+        "description": "The portfolio you are currently looking at. It is a React app with server-side rendering based on the Vite TypeScript React SSR template.",
+        "technologies": [
+            "react",
+            "typescript",
+            "docker"
+        ],
+        "links": {
+            "github": "https://github.com/caheuer/caheuer-portfolio"
+        }
+    },
+    {
+        "id": "elgio",
+        "name": "ELGIO",
+        "publishedYear": 2021,
+        "publishedMonth": 8,
+        "shortDescription": "ELGIO is an event discovery platform with its own ticketing service that I built together with two friends. It consists of a web app and a dashboard written in React. It once had a now deprecated mobile app for users and has one ticket scanning app. Both were written in Flutter. The backend uses different Firebase services for authentication, storage, serverless functions and database. A scraper written in Python using BeautifulSoup and Selenium is used to get event data from different sources.",
+        "description": "ELGIO is a platform that connects freelancers with clients. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work.",
+        "images": [
+            "/src/assets/projects/elgio/elgio-webapp.png"
+        ],
+        "technologies": [
+            "react",
+            "firebase",
+            "flutter",
+            "javascript",
+            "python"
+        ],
+        "links": {
+            "website": "https://elgio.de"
+        }
+    }
+]
