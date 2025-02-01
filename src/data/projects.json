@@ -23,7 +23,7 @@
         "shortDescription": "ELGIO is an event discovery platform with its own ticketing service that I built together with two friends. It consists of a web app and a dashboard written in React. It once had a now deprecated mobile app for users and has one ticket scanning app. Both were written in Flutter. The backend uses different Firebase services for authentication, storage, serverless functions and database. A scraper written in Python using BeautifulSoup and Selenium is used to get event data from different sources.",
         "description": "ELGIO is a platform that connects freelancers with clients. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work.",
         "images": [
-            "/src/assets/projects/elgio/elgio-webapp.png"
+            "/images/projects/elgio/elgio-webapp.png"
         ],
         "technologies": [
             "react",
