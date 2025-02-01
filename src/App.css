@@ -13,6 +13,11 @@ html, body {
     color: white;
 }
 
+::selection {
+    background: white;
+    color: black;
+}
+
 /* Link buttons */
 
 .link-btns {
