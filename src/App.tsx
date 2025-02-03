@@ -1,15 +1,14 @@
 import { BrowserRouter, StaticRouter, Route, Routes } from 'react-router-dom';
-import { lazy, Suspense } from 'react';
 
 import './App.css';
 
 import Header from './Header';
 import Footer from './Footer';
-
-const Home = lazy(() => import('./pages/Home'));
-const Projects = lazy(() => import('./pages/Projects'));
-const Project = lazy(() => import('./pages/Project'));
-const NotFound = lazy(() => import('./pages/NotFound'));
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Project from './pages/Project';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 
 
 function App({ location }: { location?: string }) {
@@ -19,17 +18,14 @@ function App({ location }: { location?: string }) {
   return <Router {...(routerProps as any)}>
     <Header />
     <Routes>
-      <Route path="/" element={<Sus><Home /></Sus>} />
-      <Route path="/projects" element={<Sus><Projects /></Sus>} />
-      <Route path="/projects/:id" element={<Sus><Project /></Sus>} />
-      <Route path="*" element={<Sus><NotFound /></Sus>} />
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/projects/:id" element={<Project />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
     <Footer />
   </Router>;
-}
-
-function Sus({ children }: { children: React.ReactNode }) {
-  return <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>;
 }
 
 export default App;

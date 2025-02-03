@@ -7,7 +7,7 @@ html, body {
 #root {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
     font-family: 'Roboto Mono', monospace;
     background-color: #1d1d1d;
     color: white;
@@ -16,6 +16,30 @@ html, body {
 ::selection {
     background: white;
     color: black;
+}
+
+/* Card */
+.card-wrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    background-color: #252525;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
 }
 
 /* Link buttons */

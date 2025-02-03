@@ -1,20 +1,3 @@
-.card-wrapper {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    display: flex;
-    gap: 20px;
-    background-color: #252525;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    max-width: 800px;
-}
-
 .photo {
     width: 200px;
     height: 200px;
@@ -37,10 +20,6 @@
 }
 
 @media (max-width: 768px) {
-    .card {
-        flex-direction: column;
-    }
-
     .photo {
         width: 100px;
         height: 100px;
