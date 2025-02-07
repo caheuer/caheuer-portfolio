@@ -9,11 +9,19 @@ export default function Projects() {
 
     return <div className="project-list">
         {projects.map(project => <div key={project.id} className="project-card">
-            {project.images?.length && <div>
-                <img className="project-image" src={project.images[0]} alt={project.name} />
+            {project.media?.length && <div>
+                {
+                    project.media[0].endsWith('.webm')
+                        ? <video className="project-image" autoPlay loop muted playsInline>
+                            <source src={project.media[0]} type="video/webm" />
+                        </video>
+                        : <img className="project-image" src={project.media[0]} alt={project.name} />
+                }
             </div>}
             <div>
                 <div className="project-name">{project.name}</div>
+                <div className="project-tagline">{project.tagline}</div>
+                <div className="project-organization">{project.organization}</div>
                 <div className="project-date">{new Date(project.publishedYear, project.publishedMonth).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</div>
                 <div className="project-technologies">
                     {

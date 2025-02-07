@@ -2,10 +2,14 @@
     {
         "id": "portfolio",
         "name": "caheuer Portfolio",
+        "tagline": "The portfolio you are currently looking at.",
         "publishedYear": 2025,
         "publishedMonth": 0,
         "shortDescription": "The portfolio you are currently looking at. It is a React app with server-side rendering based on the Vite TypeScript React SSR template. It is hosted on my own server using Docker. The code is automatically updated from GitHub using a GitHub action that deploys the image to GitHub Container Registry and Watchtower on the server.",
         "description": "The portfolio you are currently looking at. It is a React app with server-side rendering based on the Vite TypeScript React SSR template.",
+        "media": [
+            "/media/projects/portfolio/portfolio.png"
+        ],
         "technologies": [
             "react",
             "typescript",
@@ -16,14 +20,34 @@
         }
     },
     {
+        "id": "half-life-determiner",
+        "name": "Half-Life Determiner",
+        "tagline": "Control software for a custom half-life measurement rig for the Aachen University Hospital.",
+        "publishedYear": 2024,
+        "publishedMonth": 10,
+        "organization": "RWTH Aachen University",
+        "shortDescription": "For my Bachelor's thesis, I developed a control software for a custom half-life measurement rig the Nuclear Medicine department of the University Hospital of Aachen plans to build. The rig is used to measure the half-life of radiopharmaceuticals. The software was developed in C# using WPF and communicates with the sensors of the rig via a USB A/D converter. It features a live graph of the measured data with the fitted half-life curve and the ability to save and load measurements.",
+        "description": "For my Bachelor's thesis, I developed a control software for a custom half-life measurement rig the Nuclear Medicine department of the University Hospital of Aachen plans to build. The rig is used to measure the half-life of radiopharmaceuticals. The software was developed in C# using WPF and communicates with the sensors of the rig via a USB A/D converter. It features a live graph of the measured data with the fitted half-life curve and the ability to save and load measurements.",
+        "media": [
+            "/media/projects/half-life-determiner/mainwin.png",
+            "/media/projects/half-life-determiner/meovwin.png",
+            "/media/projects/half-life-determiner/mewin.png"
+        ],
+        "technologies": [
+            "c#",
+            "wpf"
+        ]
+    },
+    {
         "id": "elgio",
         "name": "ELGIO",
+        "tagline": "Event discovery platform with ticketing service.",
         "publishedYear": 2021,
         "publishedMonth": 8,
         "shortDescription": "ELGIO is an event discovery platform with its own ticketing service that I built together with two friends. It consists of a web app and a dashboard written in React. It once had a now deprecated mobile app for users and has one ticket scanning app. Both were written in Flutter. The backend uses different Firebase services for authentication, storage, serverless functions and database. A scraper written in Python using BeautifulSoup and Selenium is used to get event data from different sources.",
         "description": "ELGIO is a platform that connects freelancers with clients. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work. It is a platform that is designed to be the future of work.",
-        "images": [
-            "/images/projects/elgio/elgio-webapp.png"
+        "media": [
+            "/media/projects/elgio/elgio-webapp.png"
         ],
         "technologies": [
             "react",
@@ -35,5 +59,23 @@
         "links": {
             "website": "https://elgio.de"
         }
+    },
+    {
+        "id": "kuechen-krieg",
+        "name": "Küchen Krieg",
+        "tagline": "A multiplayer top-down shooter game set in a kitchen.",
+        "publishedYear": 2021,
+        "publishedMonth": 1,
+        "organization": "RWTH Aachen University",
+        "shortDescription": "Küchen Krieg is a game I developed together with two fellow students as part of a university project for the course 'Multimedia Modal Madness'. It is a multiplayer top-down shooter game set in a kitchen, with one team playing as fruits and the other as vegetables. The game was developed in Unity and uses Mirror for networking.",
+        "description": "Küchen Krieg is a game I developed together with two fellow students as part of a university project for the course 'Multimedia Modal Madness'. It is a multiplayer top-down shooter game set in a kitchen, with one team playing as fruits and the other as vegetables. The game was developed in Unity and uses Mirror for networking.",
+        "media": [
+            "/media/projects/kuechen-krieg/kuechen-krieg.webm"
+        ],
+        "technologies": [
+            "unity",
+            "c#",
+            "mirror"
+        ]
     }
 ]

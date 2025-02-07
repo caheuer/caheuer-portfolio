@@ -27,7 +27,19 @@
     font-weight: bold;
 }
 
+.project-tagline {
+    font-size: 20px;
+    color: #888;
+}
+
+.project-organization {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #888;
+}
+
 .project-date {
+    margin-top: 10px;
     font-size: 18px;
     color: #888;
 }

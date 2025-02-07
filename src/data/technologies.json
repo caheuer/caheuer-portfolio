@@ -33,5 +33,25 @@
         "id": "python",
         "name": "Python",
         "link": "https://www.python.org/"
+    },
+    {
+        "id": "unity",
+        "name": "Unity",
+        "link": "https://unity.com/"
+    },
+    {
+        "id": "c#",
+        "name": "C#",
+        "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+        "id": "mirror",
+        "name": "Mirror",
+        "link": "https://mirror-networking.com/"
+    },
+    {
+        "id": "wpf",
+        "name": "WPF",
+        "link": "https://docs.microsoft.com/en-us/dotnet/desktop/wpf/"
     }
 ]
