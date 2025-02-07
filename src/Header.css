@@ -25,3 +25,9 @@
     background-color: white;
     margin-top: 5px;
 }
+
+@media (max-width: 768px) {
+    .nav-item {
+        font-size: 18px;
+    }
+}
