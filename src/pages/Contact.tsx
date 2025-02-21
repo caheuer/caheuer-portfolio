@@ -7,7 +7,10 @@ export default function Contact() {
   return <div className="card-wrapper">
     <div className="card">
       <div>
-        <div className="contact-title">Find me on</div>
+        <div className="contact-title">Contact</div>
+        <div className="contact-email">
+          Email me at <a href="mailto:mail@caheuer.de">mail@caheuer.de</a>
+        </div>
         <div className="social-media-row">
           <a href="https://www.linkedin.com/in/christian-andreas-heuer-406598209/" className="social-media-icon">
             <FontAwesomeIcon icon={faLinkedin} />

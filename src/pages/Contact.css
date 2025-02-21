@@ -3,6 +3,10 @@
     font-weight: bold;
 }
 
+.contact-email {
+    margin-top: 10px;
+}
+
 .social-media-row {
     display: flex;
     flex-wrap: wrap;
