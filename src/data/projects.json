@@ -1,5 +1,26 @@
 [
     {
+        "id": "metro-mapper",
+        "name": "Metro Mapper",
+        "tagline": "Simple tool for creating simple metro maps.",
+        "publishedYear": 2025,
+        "publishedMonth": 3,
+        "shortDescription": "Metro Mapper is a tool for easily creating simple metro maps. It will automatically arrange stations and lines such that there are no overlaps (does not always work) and stations are equally distant from each other on the same stretch. Metro Mapper is still in development. It is made using C++ and SDL. A web version was compiled using Emscripten, which can be tried out on itch.io.",
+        "description": "Metro Mapper is a tool for easily creating simple metro maps. It will automatically arrange stations and lines such that there are no overlaps (does not always work) and stations are equally distant from each other on the same stretch. Metro Mapper is still in development. It is made using C++ and SDL. A web version was compiled using Emscripten, which can be tried out on itch.io.",
+        "media": [
+            "/media/projects/metro-mapper/screenshot.jpg"
+        ],
+        "technologies": [
+            "cpp",
+            "sdl2",
+            "emscripten"
+        ],
+        "links": {
+            "github": "https://github.com/caheuer/metro-mapper",
+            "itchio": "https://caheuer.itch.io/metro-mapper"
+        }
+    },
+    {
         "id": "portfolio",
         "name": "caheuer Portfolio",
         "tagline": "The portfolio you are currently looking at.",

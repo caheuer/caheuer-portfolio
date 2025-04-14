@@ -34,6 +34,7 @@ export default function Projects() {
                 <div className="link-btns">
                     {/* <Link to={`/projects/${project.id}`} className="link-btn">Details</Link> */}
                     {project.links?.website && <a className="link-btn" href={project.links.website}>Open</a>}
+                    {project.links?.itchio && <a className="link-btn" href={project.links.itchio}>Itch.io</a>}
                     {project.links?.github && <a className="link-btn" href={project.links.github}>GitHub</a>}
                 </div>
             </div>

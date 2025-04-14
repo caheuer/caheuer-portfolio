@@ -53,5 +53,20 @@
         "id": "wpf",
         "name": "WPF",
         "link": "https://docs.microsoft.com/en-us/dotnet/desktop/wpf/"
+    },
+    {
+        "id": "cpp",
+        "name": "C++",
+        "link": "https://isocpp.org/"
+    },
+    {
+        "id": "sdl2",
+        "name": "SDL2",
+        "link": "https://www.libsdl.org/"
+    },
+    {
+        "id": "emscripten",
+        "name": "Emscripten",
+        "link": "https://emscripten.org/"
     }
 ]

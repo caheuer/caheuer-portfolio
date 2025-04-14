@@ -1,7 +1,7 @@
 import './Contact.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faSteam } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faSteam, faItchIo } from '@fortawesome/free-brands-svg-icons';
 
 export default function Contact() {
   return <div className="card-wrapper">
@@ -17,6 +17,9 @@ export default function Contact() {
           </a>
           <a href="https://github.com/caheuer" className="social-media-icon">
             <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a href="https://itch.io/chrisausdemklo" className="social-media-icon">
+            <FontAwesomeIcon icon={faItchIo} />
           </a>
           <a href="https://steamcommunity.com/id/chrisausdemklo" className="social-media-icon">
             <FontAwesomeIcon icon={faSteam} />

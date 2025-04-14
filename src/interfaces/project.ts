@@ -14,6 +14,7 @@ export default interface Project {
     links?: {
         website?: string;
         github?: string;
+        itchio?: string;
     };
 }
 
