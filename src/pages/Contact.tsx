@@ -12,9 +12,6 @@ export default function Contact() {
           Email me at <a href="mailto:mail@caheuer.de">mail@caheuer.de</a>
         </div>
         <div className="social-media-row">
-          <a href="https://www.linkedin.com/in/christian-andreas-heuer-406598209/" className="social-media-icon">
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
           <a href="https://github.com/caheuer" className="social-media-icon">
             <FontAwesomeIcon icon={faGithub} />
           </a>
