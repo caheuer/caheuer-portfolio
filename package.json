@@ -27,9 +27,9 @@
     "@types/node": "^22.10.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-react": "^6.0.2",
     "cross-env": "^7.0.3",
     "typescript": "~5.7.2",
-    "vite": "^6.0.11"
+    "vite": "^8.0.16"
   }
 }
